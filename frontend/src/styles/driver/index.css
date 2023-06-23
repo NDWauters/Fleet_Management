@@ -1,0 +1,22 @@
+.driverIndex{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.datatableSection{
+    padding: 5% 10%;
+}
+
+.datatable{
+    background-color: #282a2b;
+    color: white;
+}
+
+.indexHeader{
+    background-color: #282a2b;
+}
+
+.sc-dmRaPn {
+    overflow: visible !important;
+}

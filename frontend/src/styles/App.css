@@ -1,0 +1,26 @@
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.App {
+  background-color: #282a2b;
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.footer{
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid white;
+  font-size: medium;
+}

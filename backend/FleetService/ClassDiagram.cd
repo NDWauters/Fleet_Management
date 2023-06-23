@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BusinessLogicLayer.Authorization.JwtUtils">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLogicLayer.Exceptions.DriverException">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.Exceptions.FuelCardException">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.Exceptions.UserException">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.Exceptions.VehicleException">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.Helpers.AppSettings">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.Services.DriverService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLogicLayer.Services.FuelCardService" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLogicLayer.Services.UserService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLogicLayer.Services.VehicleService" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Authorization.AllowAnonymousAttribute">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Authorization.AuthenticateRequest">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Authorization.AuthenticateResponse">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Authorization.AuthorizeAttribute" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Driver.AddressModel">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Driver.DriverModel">
+    <Position X="23" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Driver.DriverViewModel">
+    <Position X="24.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.DriverListViewModel">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.FuelCardListViewModel">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.VehicleListViewModel">
+    <Position X="24.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.FuelCard.FuelCardModel">
+    <Position X="19.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.FuelCard.FuelCardViewModel">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Vehicle.VehicleModel">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessLogicLayer.ViewModels.Vehicle.VehicleViewModel">
+    <Position X="23" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.Address">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.Brand">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.Driver">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.DriverDriverLicenseType">
+    <Position X="13.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.DriverLicenseType">
+    <Position X="15.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.FleetContext">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.FuelCard">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.FuelCardFuelType">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.FuelType">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.User">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.Vehicle">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Model.VehicleType">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.AddressRepo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.BrandRepo" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.DriverLicenseTypeRepo" BaseTypeListCollapsed="true">
+    <Position X="14" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.DriverRepo" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.FuelCardRepo" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.FuelTypeRepo" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.UserRepo" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.VehicleRepo" BaseTypeListCollapsed="true">
+    <Position X="5" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataAccessLayer.Repositories.VehicleTypeRepo" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FleetService.Controllers.DriverController">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAJAAAIAAAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\DriverController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleetService.Controllers.FuelCardController">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABIAAAAAAABAAAIAAAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\FuelCardController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleetService.Controllers.UserController">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleetService.Controllers.VehicleController">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAABQAAIAAAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VehicleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleetService.Middleware.JwtMiddleware">
+    <Position X="4" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Middleware\JwtMiddleware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BusinessLogicLayer.Authorization.IJwtUtils">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="BusinessLogicLayer.Interfaces.IDriverService">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="BusinessLogicLayer.Interfaces.IFuelCardService">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="BusinessLogicLayer.Interfaces.IUserService">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="BusinessLogicLayer.Interfaces.IVehicleService">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IAddressRepo">
+    <Position X="0.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IBrandRepo">
+    <Position X="7.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IDriverLicenseTypeRepo">
+    <Position X="14" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IDriverRepo">
+    <Position X="16.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IFuelCardRepo">
+    <Position X="2.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IFuelTypeRepo">
+    <Position X="9.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IRepository&lt;T&gt;">
+    <Position X="9.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IUserRepo">
+    <Position X="18.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IVehicleRepo">
+    <Position X="5" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Interfaces.IVehicleTypeRepo">
+    <Position X="11.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

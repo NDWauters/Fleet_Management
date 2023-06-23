@@ -1,0 +1,15 @@
+.Icon{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 1em;
+    color: white;
+}
+
+.Icon:hover, .activeIcon{
+    color: #282a2b;
+    background-color: white;
+    cursor: pointer;
+}

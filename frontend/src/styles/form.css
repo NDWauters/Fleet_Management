@@ -1,0 +1,14 @@
+.form-control{
+    background-color: ghostwhite;
+}
+.tooltip-control{
+    width: auto !important;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
+fontAwesome{
+    display: inline-block;
+    width: min-content;
+}
